@@ -31,5 +31,3 @@ def post(client_id:str, media_url:str, description:str,timestamp):
         print("BAD REQUEST")
         print(f"{client_id}_{timestamp}: {description}")
 
-post("ID", "FILE.TXT","THIS IS A TEST", datetime.now())
-
